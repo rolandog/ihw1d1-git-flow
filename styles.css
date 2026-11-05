@@ -4,3 +4,29 @@ body {
   padding: 2rem;
   background: #f6f8fa;
 }
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -2rem -2rem 2rem;
+  padding: 1rem 2rem;
+  background: #24292f;
+}
+.site-header a {
+  margin-right: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-header a:hover,
+.site-header a:focus-visible {
+  text-decoration: underline;
+}
+#theme-toggle {
+  font: inherit;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+[data-theme="dark"] {
+  background: #1f2430;
+  color: #6b7280;
+}
