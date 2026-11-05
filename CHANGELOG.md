@@ -2,6 +2,10 @@
 
 All notable changes follow [Keep a Changelog](https://keepachangelog.com/) and [SemVer](https://semver.org/).
 
+## [1.1.0] - 2026-11-05
+### Added
+- Proof of work to README.md
+
 ## [1.0.0] - 2026-11-05
 ### Added
 - Minified stylesheet `styles.min.css` (source stays in `styles.css`).
